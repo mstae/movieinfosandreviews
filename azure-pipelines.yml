@@ -12,4 +12,4 @@ steps:
     dotnet build --configuration $(buildConfiguration)
     dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSTAGINGDIRECTORY
 
-- task: PublishBuildArtifacts@\movieinfoandreview\drop
+- task: PublishBuildArtifacts@1\movieinfoandreview\drop
