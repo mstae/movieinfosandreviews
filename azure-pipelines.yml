@@ -10,6 +10,6 @@ variables:
 steps:
 - script: |
     dotnet build --configuration $(buildConfiguration)
-    dotnet publish --configuration $(buildConfiguration) --output $\movieinfoandreview\drop
+    dotnet publish --configuration $(buildConfiguration) --output $(buildConfiguration)\movieinfoandreview\drop
 
 - task: PublishBuildArtifacts@1
